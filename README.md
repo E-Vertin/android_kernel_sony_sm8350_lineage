@@ -2,7 +2,7 @@
 
 **PLEASE NOTE THAT THE ORIGINAL `README` WAS RENAMED AS `README.old`, THE SAME APPLIES FOR THE `README.md`**
 
-> [!caution] Disclaimer
+> [!IMPORTANT] Disclaimer
 >
 > - I am **NOT** responsible for bricked devices, dead SD cards, thermonuclear war, or you getting fired because the alarm app failed.
 >
