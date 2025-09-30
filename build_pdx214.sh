@@ -3,6 +3,9 @@
 # Exit on any error
 set -e
 
+echo -e "\e[32m *** Be notified that you are building for PDX214  ***"
+
+
 # 5 seconds of countdown to allow user to check `PATH`
 echo $PATH
 
@@ -34,10 +37,10 @@ fi
 
 
 
-# Generate the default configuration for Sony Xperia 1 III (pdx215)
+# Generate the default configuration for Sony Xperia 5 III (pdx214)
 echo -e "\e[34m *** Stage 3 - Generating default configuration for pdx215... ***"
 echo -e "\e[0m "
-make O=out pdx215_defconfig
+make O=out pdx214_defconfig
 
 
 # Start the build process with all available threads
