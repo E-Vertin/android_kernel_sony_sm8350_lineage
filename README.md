@@ -12,7 +12,7 @@
 
 ## My purpose of creating this fork
 
-  - Add a `build.sh` to automate the building process for my Sony Xperia 1 III
+  - Add some `build_<codename>.sh` to automate the building process for Sony Xperia with Snapdragon 888
 
   - Add a new `README` to help those who want to build their own kernel from source
 
@@ -92,7 +92,7 @@
               make O=out -j$(nproc)    # Compile the kernel with all available threads
               ```
         
-          - 5.   ----- THE SAME AS STEP 4 AND 5 ABOVE -----
+          - 5.   ----- THE SAME AS STEP 4 AND 5 IN AUTOMATED APPROACH -----
         
 ## Integration of KernelSU and its derivatives
 
