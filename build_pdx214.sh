@@ -38,7 +38,7 @@ fi
 
 
 # Generate the default configuration for Sony Xperia 5 III (pdx214)
-echo -e "\e[34m *** Stage 3 - Generating default configuration for pdx215... ***"
+echo -e "\e[34m *** Stage 3 - Generating default configuration for pdx214... ***"
 echo -e "\e[0m "
 make O=out pdx214_defconfig
 
